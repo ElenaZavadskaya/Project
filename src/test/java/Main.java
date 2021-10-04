@@ -6,6 +6,7 @@ public class Main {
     @Test
     public void test(){
         Logger.getInstance().info("Executing test 1");
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         String actual = "str";
         String expected = "str";
         Assert.assertEquals(actual, expected, "Messages are not equal");
